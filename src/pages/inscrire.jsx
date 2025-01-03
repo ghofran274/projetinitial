@@ -4,14 +4,13 @@ import google from "../assets/google.png";
 import apple from "../assets/apple.jpg";
 import facebook from "../assets/R.png";
 
-function Login() { 
-  
+function Login() {
   return (
+  
     <div className="login-container">
+      
       <h1>Sign in or create an account</h1>
-      <p>
-      Sign in with your ShareMyRide.com account and access our services.
-      </p>
+      <p>Sign in with your ShareMyRide.com account and access our services.</p>
       <form className="login-form">
         <label htmlFor="email">Adresse e-mail</label>
         <input
@@ -21,7 +20,7 @@ function Login() {
           required
         />
         <button type="submit" className="email-login-button">
-        Continue with an email address
+          Continue with an email address
         </button>
       </form>
       <div className="separator">
@@ -32,11 +31,8 @@ function Login() {
         <img src={apple} alt="apple" className="apple-logo" />
         <img src={facebook} alt="facebook" className="facebook-logo" />
       </div>
-      <footer className="login-footer">
-        <p>Copyright (2006 - 2025) - ShareMyRide.com™</p>
-      </footer>
     </div>
-  );
+  ); 
 }
 
 export default Login;

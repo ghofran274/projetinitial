@@ -10,19 +10,19 @@ import img12 from "../assets/img12.jpg";
 function Header() {
   return (
     <div>
-      <header className="header">
-        <div className="header-content">
-          <div className="header-text">
+      <header className="Header">
+        <div className="Header-content">
+          <div className="Header-text">
             <h1>
               Carpool without reservation<tr>For your daily commute</tr>
             </h1>
           </div>
-          <div className="header-image">
+          <div className="Header-image">
             <img src={img7} alt="Image illustrative" />
           </div>
         </div>
       </header>
-      <section className="content-section">
+      <section className="Content-section">
         <h2>
           Passagers : a service<tr></tr>convenient and reliable
         </h2>
@@ -97,8 +97,8 @@ function Header() {
         </div>
       </section>
 
-      <section className="features-section">
-        <div className="feature">
+      <section className="Features-section">
+        <div className="Feature">
           <img src={img12} alt="protect the environment" />
           <h3>protect the environment</h3>
           <p>
@@ -107,7 +107,7 @@ function Header() {
           </p>
         </div>
 
-        <div className="feature">
+        <div className="Feature">
           <img src={img11} alt="Faites des économies" />
           <h3>Save money</h3>
           <p>
@@ -116,7 +116,7 @@ function Header() {
           </p>
         </div>
 
-        <div className="feature">
+        <div className="Feature">
           <img src={img10} alt="CovoiturE" />
           <h3>Carpool with peace of mind</h3>
           <p>
@@ -205,6 +205,9 @@ function Header() {
           </div>
         </div>
       </section>
+      <footer>
+        <p>&copy; 2024 ShareMyRide. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Signin from "./pages/signin";
 import Login from "./pages/login";
-import Accueill from "./pages/accueill";
+import Accueill from "./pages/accueill/accueil";
 import Inscrire from "./pages/inscrire";
 
 const App = () => {

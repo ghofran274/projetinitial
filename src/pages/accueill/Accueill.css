@@ -1,0 +1,10 @@
+
+.Container{
+  
+    background-color: rgba(136, 140, 148, 0.75);
+    border-radius: 12px;
+    backdrop-filter:blur(19px) saturate(180%) ;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+  
+  }
